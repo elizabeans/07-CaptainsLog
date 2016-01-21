@@ -1,0 +1,14 @@
+﻿<Window x:Class="CaptainsLog.ViewEntry"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CaptainsLog"
+        mc:Ignorable="d"
+        Title="ViewEntry" Height="300" Width="300">
+    <Grid>
+        <TextBlock x:Name="textBlockShowText" HorizontalAlignment="Left" Height="226" Margin="10,33,0,0" TextWrapping="Wrap" Text="Show entry here" VerticalAlignment="Top" Width="272"/>
+        <TextBlock x:Name="textBlockShowTitle" HorizontalAlignment="Left" Height="23" Margin="34,5,0,0" TextWrapping="Wrap" Text="Show Title Here" VerticalAlignment="Top" Width="224"/>
+        <TextBlock x:Name="textBlockTitle" HorizontalAlignment="Left" Margin="4,6,0,0" TextWrapping="Wrap" Text="Title:" VerticalAlignment="Top" Height="20"/>
+    </Grid>
+</Window>
